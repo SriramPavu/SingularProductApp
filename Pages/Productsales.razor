@@ -1,0 +1,34 @@
+﻿@page "/productsales"
+@using SingularProductApp.Models
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>SaleId</th>
+            <th>ProductId</th>
+            <th>SalePrice</th>
+            <th>SaleQty</th>
+            <th>SaleDate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var productlist in productsales)
+        {
+            <tr>
+                <td>@productlist.SaleId</td>
+                <td>@productlist.ProductId</td>
+                <td>@productlist.SalePrice</td>
+                <td>@productlist.SaleQty</td>
+                <td>@productlist.SaleDate</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@inject HttpClient Http
+@code {
+    private List<ProductSales>? productsales;
+    protected override async Task OnInitializedAsync()
+    {
+        productsales = await Http.GetFromJsonAsync<List<ProductSales>>("api/ProductSales/sales");
+    }
+}
