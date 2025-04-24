@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SingularProductApp.styles.css",
+      "PackagePath": "staticwebassets\\SingularProductApp.styles.css"
+    },
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Hoc\\SingularProductApp\\SingularProductApp\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SingularProductApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SingularProductApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SingularProductApp.props",
+      "PackagePath": "build\\SingularProductApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SingularProductApp.props",
+      "PackagePath": "buildMultiTargeting\\SingularProductApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SingularProductApp.props",
+      "PackagePath": "buildTransitive\\SingularProductApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
